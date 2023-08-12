@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librarie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-container">
+    <section>
+        <label for="nume">Nume</label>
+        <input type="text" id="nume" name="nume">
+        <label for="autor">Autor</label>
+        <input type="text" id="autor" name="autor">
+        <label for="an">An</label>
+        <input type="text" id="an" name="an">
+        <button class="add" title="Adauga carte">Add book</button>
+    </section>
+    <table class = "table-container">
+        <caption>Lista de carti</caption>
+        <thead>
+            <tr>
+                <th>titlu</th>
+                <th>Autor</th>
+                <th>An</th>
+            </tr>
+        </thead>
+        <tbody class="carti-container">
+            <tr class="trow">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="actions-buttons">
+
+                    <div>
+                        <i class="fa-regular fa-trash ">
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="data.js"></script>
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
